@@ -2,7 +2,7 @@
 
 TARGET='miniProxy.php'
 
-curl -o $TARGET https://github.com/joshdick/miniProxy/raw/master/$TARGET
+curl -o $TARGET https://raw.githubusercontent.com/joshdick/miniProxy/master/$TARGET
 chmod +x $TARGET
 
 php-fpm
