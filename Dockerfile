@@ -2,7 +2,7 @@ FROM php:fpm-alpine
 MAINTAINER bulzipke <bulzipke@naver.com>
 
 RUN apk update && apk upgrade
-COPY setup.sh /root/
+COPY scripts/* /root/
 
 VOLUME /var/www/html
 
